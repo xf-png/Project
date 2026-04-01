@@ -1,0 +1,81 @@
+.login-modal {
+    margin-top: -100px;
+}
+
+.login-modal .ant-modal-header {  
+    height: 45px;
+    background-color: #f0f2f5;
+    padding: 12px 0px 0px 20px;
+    margin: 0;  
+  }
+  
+  .login-modal .ant-modal-content {
+    padding: 0;
+  }
+
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.login-title {
+    /* width: 150px;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    background-color: #def4ff; */
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.login-form .ant-form-item {
+    margin-bottom: 13px;
+    width: 300px;
+}
+
+.captcha-btn {
+    width: 120px;
+    display: inline-block;
+}
+
+.captcha-input {
+    width: calc(100% - 135px);
+    background-color: FloralWhite;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.login-submit-btn {
+    width: 100%;
+    margin-top: 17px;
+}
+
+.register {
+    /* color: #9c9c9c; */
+    text-decoration: underline;
+    float: left;
+}
+
+.forget {
+    /* color: #9c9c9c; */
+    text-decoration: underline;
+    float: right;
+}
+
+.operation {
+    margin-top: 15px;
+    padding: 0px 10px;
+}
